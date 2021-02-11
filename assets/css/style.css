@@ -8,11 +8,11 @@
 }
 
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 a{
-    font-family:;
+    font-family: 'Playfair Display', serif;;
     font-weight: 100;
     text-decoration: none;
     color: var(--orange-text)  
@@ -44,7 +44,7 @@ main{
 
 
 nav ul{
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -84,14 +84,14 @@ footer p{
 }
 
 #profile img{
-    height: 250px;
+    height: 250px;     
     border-radius: 50%; 
     border: 4px #666 solid;
     
 }
 
 section p{
-    font-size: 28px; /*this needs to be em*/
+    font-size: 4em; /*this needs to be em*/
     line-height: 44px;
     font-weight: 100;
     color: var(--dark-gray-text);
