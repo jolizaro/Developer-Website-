@@ -84,7 +84,8 @@ footer p{
 }
 
 #profile img{
-    height: 250px;     
+    height: 250px;
+    width: 100px;     
     border-radius: 50%; 
     border: 4px #666 solid;
     
