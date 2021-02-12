@@ -1,6 +1,6 @@
 :root{
     --dark-gray-text: #44474a;
-    --orange-text: #df633a;
+    --orange-text: #f18d09d8;
     --light-gray-text: #FDFEFF;
     --black-text: #000;
     --white-text: #fff;
@@ -12,7 +12,7 @@ body {
 }
 
 a{
-    font-family: 'Playfair Display', serif;;
+    font-family: 'Playfair Display', serif;
     font-weight: 100;
     text-decoration: none;
     color: var(--orange-text)  
@@ -44,7 +44,10 @@ main{
 
 
 nav ul{
+    margin: 1;
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -54,12 +57,16 @@ span{
     font-size: 17px;
     color: ;
     text-transform: uppercase;
+    
 }
 
 h2{
     font-size: 46px;
     font-weight: 100;
-    color:
+    color: var(--black-text: #000;);
+    margin-top: 15px;    
+    font-size: 40px;
+    text-align: center;
 
 }
 
@@ -70,8 +77,8 @@ strong{
 }
 
 footer p{
-    font-family:'Courier New', Courier, monospace
-    font-weight: ;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100 ;
     text-transform: ;
     padding-top: ;
 
@@ -84,21 +91,25 @@ footer p{
 }
 
 #profile img{
-    height: 250px;
-    width: 100px;     
-    border-radius: 50%; 
-    border: 4px #666 solid;
-    
+   /* height: auto;*/
+    width: 300px;
+    border: 4px #666 solid;   
+    border-radius: 50%;    
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
 }
 
 section p{
-    font-size: 4em; /*this needs to be em*/
+    font-size: 2.5em; /*this needs to be em*/
     line-height: 44px;
     font-weight: 100;
     color: var(--dark-gray-text);
   }
   section{
       margin-bottom: 20px;
+       
   }
 
   hr {
