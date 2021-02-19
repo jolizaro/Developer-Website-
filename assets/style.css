@@ -71,18 +71,16 @@ h2{
 }
 
 strong{
-    font-size: 46px;  
-    font-weight: 100px;
+    font-size: ;
+    font-weight: ;
     color: var(--black-text);
 }
 
 footer p{
     font-family: 'Playfair Display', serif;
-    font-weight: 100px;    
-    text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
+    font-weight: 100 ;
+    text-transform: ;
+    padding-top: ;
 
 }
 .container{
@@ -121,12 +119,9 @@ section p{
     line-height: 44px;
     font-weight: 100;
     color: var(--dark-gray-text);
-   
   }
   section{
-      margin-bottom: auto;
-      
-
+      margin-bottom: 20px;
        
   }
 
@@ -145,7 +140,7 @@ section p{
     border-top: 1px dashed #74777A;
     border-bottom: 1px dashed #74777A;
     height: 4px;
-    margin: 2em auto 0;
+    margin: 5em auto 0;
   }
   
   hr::after {
@@ -162,7 +157,7 @@ section p{
     line-height: 1;
     top: -.6em;
     position: left;
-    background: var(--white-text: #fff;
+    background: #FDFEFF;
   }
 
   .first-featured-work img{
