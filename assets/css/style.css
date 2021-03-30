@@ -36,12 +36,12 @@ h1{
     flex-direction: column;
 }
 main{
+    max-width: 1000px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     
 }
-
-
 
 nav ul{
     margin: 1;
@@ -49,6 +49,7 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 span{
@@ -113,9 +114,9 @@ footer p{
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-    display: block; */ 
+    display: block;  
 }
-
+*/
 section p{
     font-size: 2.5em; /*this needs to be em*/
     line-height: 44px;
@@ -123,14 +124,14 @@ section p{
     color: var(--dark-gray-text);
    
   }
-  section{
+section{
       margin-bottom: auto;
       
 
        
   }
 
-  hr {
+hr {
     border-top: 1px dashed #74777A;
     border-bottom: 1px dashed #74777A;
     overflow: visible;
@@ -148,7 +149,7 @@ section p{
     margin: 2em auto 0;
   }
   
-  hr::after {
+hr::after {
     content: "\00A7";
     display: inline-block;
     -webkit-transform: rotate(90deg);
@@ -169,16 +170,29 @@ section p{
     height: 450px; /*This needs to be changed with media queries*/
   }
 
-  .carousel-item img{
-      height: 150px;
+.carousel-item img{
+    height: 150px;
+    
   }
 
-  button {
-      background-color: #000color
-      border-radius: ;
-      height: ;
-      marigin-left: ;
-      padding: 20px 20px;
-      text-transform: uppercase;
+button {
+    background-color: #000color
+    border: 2px ;
+    height: auto;
+    margin-left: 50px;
+    padding: 20px 20px;
+    text-transform: uppercase;
+  }
 
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
   }
